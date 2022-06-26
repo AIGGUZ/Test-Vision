@@ -10,7 +10,7 @@ st.title('Webcam Test')
 run = st.checkbox('Run')
 FRAME_WINDOW = st.image([])
 webCamFeed = True
-cap =  cv2.VideoCapture()
+cap =  cv2.VideoCapture(0)
 cap.set(10,160)
 heightImg = 700
 widthImg  = 700
